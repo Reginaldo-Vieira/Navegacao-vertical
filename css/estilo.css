@@ -1,0 +1,24 @@
+body{
+	font-size: 16px;
+	font-family: Verdana;
+}
+ul{
+	width: 200px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: #FFBF00;
+}
+ul a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: url(../imagem/menu.png) no-repeat;
+	height: 40px;
+	text-indent: 40px;
+	line-height: 40px;
+}
+ul a:hover{
+	background-position: right bottom;
+	color: white;
+}
